@@ -1,0 +1,33 @@
+#chat-app {
+    display: grid;
+    justify-content: center;
+}
+
+#chat-window {
+    height: 400px;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+.chat-navigate {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.handle {
+    height: 30px;
+}
+
+.message {
+    height: 30px;
+}
+
+.btn__send {
+    background-color: blue;
+    color: #ffffff;
+    height: 30px;
+    border: none;
+}
